@@ -14,6 +14,7 @@ body {
     background-color: black;
     color: white;
     padding-bottom: 200px;
+    overflow-x: hidden;
 }
 
 /* main container containing all items except favourite items */
@@ -209,6 +210,7 @@ input:focus {
     display: none;
     box-shadow: 0 0px 8px 0 #fff3;
     background-color: #fff3;
+    margin-bottom: 50px !important;
 }
 
 .close {
