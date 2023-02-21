@@ -15,7 +15,7 @@ async function updatesearchlist(vl) {
         movieinfo.style.display = "none";
         return;
     }
-    let x = await fetch(`http://www.omdbapi.com/?s=${vl}&page=1&apikey=1b79c252`);
+    let x = await fetch(`https://www.omdbapi.com/?s=${vl}&page=1&apikey=1b79c252`);
     let y = await x.json();
     if (y.Search !== undefined) {
         main.style.display = "block";
@@ -98,7 +98,7 @@ hamburger.addEventListener('click', () => {
 
 async function additemstofavlist(key, urrl) {
 
-    let x = await fetch(`http://www.omdbapi.com/?i=${key}&apikey=1b79c252`);
+    let x = await fetch(`https://www.omdbapi.com/?i=${key}&apikey=1b79c252`);
     let y = await x.json();
     let previouspost = movieinfo.querySelector(".moveinfodiv");
     if (previouspost !== null) {
