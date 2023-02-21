@@ -211,7 +211,11 @@ input:focus {
     display: none;
     box-shadow: 0 0px 8px 0 #fff3;
     background-color: #fff3;
+<<<<<<< HEAD
     margin-bottom: 50px;
+=======
+    margin-bottom: 50px !important;
+>>>>>>> bb18344b86f7acc005719f68d23e492c80a7b5ef
 }
 
 .close {
